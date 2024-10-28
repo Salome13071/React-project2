@@ -7,19 +7,23 @@ function Header(props) {
   const navigate = useNavigate();
 
   return (
-    <div>
+    <div className={styles.headerMain}>
       <div className={styles.headerContainer}>
-        <div className={styles.logoBox}>logo</div>
-        <div className="navDiv">
-          <nav>
-            <li>
-              <Button onClick={() => navigate("/home")}>Home</Button>
-              <Button onClick={() => navigate("/about")}>About </Button>
-              <Button onClick={() => navigate("/contact")}>Contact </Button>
-            </li>
+        <div className={styles.logoBox}>
+          <div className={styles.logoImg}>
+            <img src="./assets/cats-icon.svg" alt="Logo" />
+          </div>
+          <p className={styles.logoText}>Cat's Frends</p>
+        </div>
+        <div className={styles.navDiv}>
+          <nav className={styles.navButtons}>
+            <Button onClick={() => navigate("/")}>Home</Button>
+            <Button onClick={() => navigate("/about")}>About </Button>
+            <Button onClick={() => navigate("/contact")}>Contact </Button>
+            <Button onClick={() => navigate("/blog")}>Blog </Button>
           </nav>
         </div>
-        <div className="iconsBox"></div>
+        <div className={styles.iconsBox}></div>
       </div>
     </div>
   );

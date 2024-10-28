@@ -1,0 +1,22 @@
+.aboutMainContainer {
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  max-width: 1240px;
+  height: 100%;
+  width: 100%;
+  background-color: #f1f2eb;
+}
+
+.aboutMainHeader {
+  display: flex;
+  justify-content: center;
+  font-family: cursive;
+  font-size: 52px;
+  padding: 30px 0;
+}
+
+.aboutHeaders {
+  padding: 20px;
+  color: #3b5b69;
+}

@@ -1,0 +1,38 @@
+.blogContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  max-width: 1240px;
+  height: 100%;
+  width: 100%;
+  background-color: #f1f2eb;
+}
+
+.blogMainBox {
+  margin-top: 30px;
+  position: relative;
+}
+
+.blogMainheader {
+  font-family: cursive;
+  font-size: 52px;
+  padding: 30px 0;
+  margin-left: 30px;
+}
+
+.blogMainText,
+.blogMainTextList {
+  padding: 20px 40px;
+  font-family: sans-serif;
+  line-height: 34px;
+  font-size: 22px;
+}
+
+.threeCatsImg {
+  width: 250px;
+  border-radius: 20px;
+  position: absolute;
+  bottom: 340px;
+  right: 36px;
+}

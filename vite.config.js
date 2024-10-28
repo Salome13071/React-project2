@@ -4,5 +4,8 @@ import commonjs from "vite-plugin-commonjs";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react(), commonjs()],
+  plugins: [react({ include: "pathToAllReactFiles.{jsx,tsx}" })],
+  server: {
+    port: 3000,
+  },
 });

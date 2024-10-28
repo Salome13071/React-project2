@@ -1,8 +1,49 @@
-.headerContainer {
-  height: 80px;
-  background: rgb(212, 193, 231);
+.headerMain {
+  background-color: #e59500;
 }
 
+.headerContainer {
+  height: 80px;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  max-width: 1240px;
+  justify-content: center;
+  gap: 80px;
+}
 .logoBox {
-  background: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 80px;
+}
+
+.logoImg {
+  width: 60px;
+  height: 60px;
+}
+
+.logoImg img {
+  width: 60px;
+  height: 60px;
+}
+
+.logoText {
+  font-family: cursive;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.navButtons {
+  height: 80px;
+  display: flex;
+  gap: 30px;
+}
+
+.navButtons button {
+  color: black;
+  font-weight: 500;
+  font-size: 20px;
+  font-family: cursive;
 }
